@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jiacorp.taxreceipt.MainActivity">
+    <item
+        android:id="@+id/action_amount"
+        android:orderInCategory="100"
+        android:title="Tax Amount"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_attach_money_white_48dp"
+        />
+
+    <item
+        android:id="@+id/action_date"
+        android:orderInCategory="100"
+        android:title="Purchase Date"
+        android:icon="@mipmap/ic_today_white_48dp"
+        app:showAsAction="always" />
+</menu>
